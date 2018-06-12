@@ -1,6 +1,6 @@
 # code your #position_taken? method here!
-def position_taken?(board, input_to_index)
-  smorg = board[input_to_index]
+def position_taken?(board, index)
+  smorg = board[index]
   if (smorg == " " || smorg == "" || smorg == nil)
    return false
   elsif smorg == "X" || "O"
